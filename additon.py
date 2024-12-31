@@ -1,4 +1,4 @@
 a = input('Enter a number: ')
 b = input('Enter a number: ')
 add = a+b
-print(f"The answer is {add}")
+print(f"The ans is {add}")
