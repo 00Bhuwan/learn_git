@@ -7,6 +7,7 @@ git diff : to check the changes made in new version compared to its previous ver
 git checkout . : This reverts every single modified file in your current directory back to the last committed state
 git commit : helps track the changes made
 git log : history
+git log branchname : git checkout branchname && git log
 git push : push remotely in github after remote repo is added
 git clone : to clone a repo from github to local machine (download)
 fork : is used to copy a repo make changes and collaborate with others
@@ -24,3 +25,6 @@ git switch branchname : to change branches
 
 git checkout -b branchname : to create a new branch
 git checkout branchname : to change branches 
+
+git merge, git rebase or git cherry-pick : used to merge branches 
+git cherry-pick : 
