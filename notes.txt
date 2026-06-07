@@ -27,4 +27,5 @@ git checkout -b branchname : to create a new branch
 git checkout branchname : to change branches 
 
 git merge, git rebase or git cherry-pick : used to merge branches 
-git cherry-pick : 
+git cherry-pick commit_id : simple least used
+git merge branch_name : merge current branch to mentioned branch
