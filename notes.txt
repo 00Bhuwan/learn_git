@@ -29,3 +29,5 @@ git checkout branchname : to change branches
 git merge, git rebase or git cherry-pick : used to merge branches 
 git cherry-pick commit_id : simple least used
 git merge branch_name : merge current branch to mentioned branch
+git rebase branchname : merge current branch to mentioned branch
+to solve conflict collaborate with developers to agree for either changes to be implemented
