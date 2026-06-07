@@ -16,3 +16,11 @@ usign ssh git clone require ssh public key -> cmd( ssh-keygen -t rsa ) -> copy f
 git remote -v : remote reference connection pointed
 git remote add "repo name" : to create a remote repo using cmd
 
+git branch branchname : to create a new branch
+git branch : list the number of branches
+git branch -a : list all branches 
+git branches -r : list branches from remote
+git switch branchname : to change branches
+
+git checkout -b branchname : to create a new branch
+git checkout branchname : to change branches 
