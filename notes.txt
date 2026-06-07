@@ -1,0 +1,18 @@
+git init: to initialize the git repo
+	  creates a .git folder in current location
+git status: to check the changes and info about the repository
+git add filename: to stage the filename to be added remotely
+git add .: all the unstaged file will be staged 
+git diff : to check the changes made in new version compared to its previous version
+git checkout . : This reverts every single modified file in your current directory back to the last committed state
+git commit : helps track the changes made
+git log : history
+git push : push remotely in github after remote repo is added
+git clone : to clone a repo from github to local machine (download)
+fork : is used to copy a repo make changes and collaborate with others
+using https git clone only github passwork required
+usign ssh git clone require ssh public key -> cmd( ssh-keygen -t rsa ) -> copy from id_rsa.pub to github/settings/sshkey
+
+git remote -v : remote reference connection pointed
+git remote add "repo name" : to create a remote repo using cmd
+
